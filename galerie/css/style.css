@@ -84,3 +84,25 @@ body {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1439px) {
+  .card {
+    height: 133px;
+    width: 266px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .card {
+    height: 100px;
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
