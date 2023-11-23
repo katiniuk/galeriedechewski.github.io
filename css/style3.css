@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 237, 224);
+}
+
+header {
+	background-color: white;
+	width: 1440px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	font-family: DIN;
+}
+
+.menu li {
+	list-style-type: none;
+	margin-bottom: -12px;
+}
+
+.menu a {
+    display:block;
+    min-width: 120px; 
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center; 
+    background-color: #1ABC9C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menu a:hover {
+  background-color: #ed2794;
+  color: #fff;
+}
+
+#logo a {
+	background-color: white;
+	margin-top: -3px;
+}
+
+#sec1 {
+	display: flex;
+	margin-top: 100px;
+}
+
+#sec1 img {
+	width: 450px;
+}
+
+#sec1 p {
+	font-family: DIN;
+	text-align: center;
+	width: 650px;
+	margin-left: 40px;
+}
+
+footer #sec2 {
+	color: #fff;
+	background-color: #000;
+	width: 1440px;
+	text-align: center;
+	font-family: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+  
+footer a {
+		font-family: DIN;
+	  width: 50px;
+		display:block;
+	  min-width: 120px; 
+	  margin: 0.5rem;
+	  padding: 0.4rem 0;
+	  text-align: center;
+	  background-color: #1ABC9C;
+	  color: #fff;
+	  text-decoration: none;
+	  border-radius: 4px;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+footer a:hover {
+	background-color: #000;
+	color: #fff;
+}
+  
+footer .bold {
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 130px;
+}
+
+@media screen and (max-width: 1439px) {
+	body {
+		max-width: 1000px;
+	}
+  
+	header {
+		width: 1000px;
+	}
+  
+	footer #sec2 {
+		width: 1000px;
+	}
+
+	#sec1 {
+		width: 1000px;
+	}
+  }
+  
+  @media screen and (max-width: 999px) {
+	header {
+		width: 430px;
+	}
+  
+	footer {
+		margin-top: 30px;
+	}
+
+	footer #sec2 {
+		width: 430px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sec1 {
+		width: 430px;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	#sec1 img {
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sec1 p {
+		width: 430px;
+		margin-left: 0px;
+	}
+  }
