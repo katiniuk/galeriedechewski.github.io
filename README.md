@@ -1,1 +1,0 @@
-# galeriedechewski.github.io
