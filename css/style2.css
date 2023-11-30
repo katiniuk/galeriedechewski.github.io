@@ -137,6 +137,10 @@ footer .bold {
     font-weight: bold;
 }
 
+i {
+    width: 50px;
+}
+
 @media screen and (max-width: 1439px) {
     body {
         max-width: 1000px;
@@ -146,7 +150,7 @@ footer .bold {
         width: 1000px;
     }
 
-    footer {
+    footer #sec3 {
         width: 1000px;
     }
 }
@@ -155,7 +159,7 @@ footer .bold {
     header {
         width: 430px;
     }
-
+    
     footer #sec3 {
         width: 430px;
         margin-left: auto;
