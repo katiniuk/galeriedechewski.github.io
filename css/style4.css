@@ -5,6 +5,7 @@
     flex-direction: column;
     background: rgb(255, 237, 224);
     font-family: DIN;
+    font-weight: lighter;
   }
 
 .cards {
@@ -135,6 +136,10 @@ footer a:hover {
 
 footer .bold {
   font-weight: bold;
+}
+
+i {
+  width: 50px;
 }
 
 @media screen and (max-width: 1439px) {
